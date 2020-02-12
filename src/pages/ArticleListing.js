@@ -1,11 +1,10 @@
 import React from 'react';
-import '../styles/ArticleListing.css'
 import ArticleCard from '../components/ArticleCard.js';
 
 import Data from "../components/Data.js";
 
 function ArticleListing() {
-  console.log('data', Data);
+  // console.log('data', Data);
   return (
     <div className="ArticleListing">
       <header>
