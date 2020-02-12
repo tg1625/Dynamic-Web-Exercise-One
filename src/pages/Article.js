@@ -4,6 +4,7 @@ import {useParams} from "react-router-dom"
 
 function Article() {
   let {id} = useParams();
+  console.log(id);
   return (
     <div className="Article">
       <header>

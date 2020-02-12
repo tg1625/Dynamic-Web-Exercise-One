@@ -1,4 +1,4 @@
-header{
+.articleListing header{
   margin:0 auto;
   max-width:1080px;
 }
@@ -30,4 +30,8 @@ header{
 .articleDesc h2{
   font-size:2em;
   margin:0;
+}
+
+.articleDesc p{
+  margin-bottom:1.5em;
 }

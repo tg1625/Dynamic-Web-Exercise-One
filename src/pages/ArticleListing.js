@@ -6,7 +6,7 @@ import Data from "../components/Data.js";
 function ArticleListing() {
   // console.log('data', Data);
   return (
-    <div className="ArticleListing">
+    <div className="articleListing">
       <header>
         <h1>Articles</h1>
       </header>
