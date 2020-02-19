@@ -35,3 +35,38 @@
 .articleDesc p{
   margin-bottom:1.5em;
 }
+
+.articleHeader{
+  background-position: center;
+  background-size: cover;
+  background-color: #ccc;
+  padding:100px 25px;
+}
+
+.articleHeaderWrapper{
+  margin:0 auto;
+  max-width:1080px;
+  width:100%;
+}
+
+.articleHeaderWrapper h1{
+  margin:0;
+}
+
+.articleHeaderWrapper .articleBlurb{
+  font-size:20px;
+}
+
+.articleContent{
+  padding:30px 25px;
+}
+
+.articleContent p{
+  font-size: 16px;
+  line-height:1.5em;
+}
+
+.articleContentWrapper{
+  max-width:640px;
+  margin:0 auto;
+}
