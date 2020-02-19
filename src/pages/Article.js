@@ -3,6 +3,7 @@ import React,{useEffect, useState} from 'react';
 import {useParams} from "react-router-dom";
 
 import Data from "../components/Data.js";
+import ArticleItem from "../components/ArticleItem.js";
 
 
 
@@ -50,6 +51,7 @@ function Article() {
         <div className="articleContentWrapper">
           {article.articleText && article.articleText.map((text,i) => (
             <text.type key={i}>{text.data}</text.type> 
+            // <ArticleItem data={text.data} type={text.type}/>
           ))}
         </div>
       </main>
